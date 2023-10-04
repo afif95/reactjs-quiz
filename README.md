@@ -1,3 +1,10 @@
+# deployed app:
+### main branch:
+https://reactjs-quiz.onrender.com
+### fakeapiserver branch
+https://reactjs-quiz-nodejs-fake-server-api.onrender.com/questions
+in case of run locally, json-server can be used with: npm run server 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
