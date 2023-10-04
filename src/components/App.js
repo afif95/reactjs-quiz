@@ -91,7 +91,8 @@ export default function App() {
 
   useEffect(function () {
     // fake api call using json-server
-    fetch("http://localhost:8000/questions")
+    // fetch("http://localhost:8000/questions")
+    fetch("https://reactjs-quiz-nodejs-fake-server-api.onrender.com/questions")
       .then((res) => res.json())
       .then((data) => dispatch({ type: "dataReceived", payload: data }))
       .catch((err) => dispatch({ type: "dataFailed" }));
